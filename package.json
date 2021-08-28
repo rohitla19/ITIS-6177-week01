@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {"node" : "v12.14.1"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/rohitla19/ITIS-6177-week01#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nvm": "0.0.4"
   }
 }
